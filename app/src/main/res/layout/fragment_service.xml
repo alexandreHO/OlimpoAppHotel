@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/view6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:background="@color/blue_300"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:fontFamily="@font/semibold"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/txtHeadServices"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Large"
+                    android:textColor="@color/white"
+                    android:textSize="34sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/view6"
+                    app:layout_constraintEnd_toEndOf="@+id/view6"
+                    app:layout_constraintStart_toStartOf="@+id/view6"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="16dp"
+                    android:fontFamily="@font/medium"
+                    android:text="@string/txtHeadInformations"
+                    android:textColor="@color/blue_400"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view6" />
+
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView3"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view6">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:cardBackgroundColor="#00378D95">
+
+                            <View
+                                android:id="@+id/view5"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:background="#214FAC" />
+
+                            <TextView
+                                android:id="@+id/textView24"
+                                android:layout_width="216dp"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/semibold"
+                                android:text="@string/txtHeadServiceParking"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:translationX="30dp"
+                                android:translationY="50dp" />
+
+                            <TextView
+                                android:id="@+id/textView25"
+                                android:layout_width="216dp"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/regular"
+                                android:text="@string/txtDescribingParking"
+                                android:textColor="#FFFFFF"
+                                android:translationX="30dp"
+                                android:translationY="125dp" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:cardElevation="2dp"
+                            app:cardMaxElevation="2dp">
+
+                            <View
+                                android:id="@+id/view11"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="#214FAC" />
+
+                            <TextView
+                                android:id="@+id/textView26"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/semibold"
+                                android:text="@string/txtHeadServiceRestaurant"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:translationX="40dp"
+                                android:translationY="50dp" />
+
+                            <TextView
+                                android:id="@+id/textView27"
+                                android:layout_width="256dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/txtDescribingRestaurant"
+                                android:textColor="#FFFFFF"
+                                android:translationX="40dp"
+                                android:translationY="100dp" />
+
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:cardElevation="2dp"
+                            app:cardMaxElevation="2dp">
+
+                            <View
+                                android:id="@+id/view12"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="#214FAC" />
+
+                            <TextView
+                                android:id="@+id/textView28"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/semibold"
+                                android:text="@string/txtHeadServiceWifi"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:translationX="40dp"
+                                android:translationY="50dp" />
+
+                            <TextView
+                                android:id="@+id/textView29"
+                                android:layout_width="256dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/txtDescribingWifi"
+                                android:textColor="#FFFFFF"
+                                android:translationX="40dp"
+                                android:translationY="100dp" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:cardElevation="2dp"
+                            app:cardMaxElevation="2dp">
+
+                            <View
+                                android:id="@+id/view13"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="#214FAC" />
+
+                            <TextView
+                                android:id="@+id/textView30"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/semibold"
+                                android:text="@string/txtHeadServiceStore"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:translationX="40dp"
+                                android:translationY="50dp" />
+
+                            <TextView
+                                android:id="@+id/textView31"
+                                android:layout_width="256dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/txtDescribingStore"
+                                android:textColor="#FFFFFF"
+                                android:translationX="40dp"
+                                android:translationY="100dp" />
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:cardElevation="2dp"
+                            app:cardMaxElevation="2dp">
+
+                            <View
+                                android:id="@+id/view14"
+                                android:layout_width="300dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="#214FAC" />
+
+                            <TextView
+                                android:id="@+id/textView34"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ems="10"
+                                android:fontFamily="@font/semibold"
+                                android:text="@string/txtHeadServiceAccessibility"
+                                android:textColor="#FFFFFF"
+                                android:textSize="20sp"
+                                android:translationX="40dp"
+                                android:translationY="50dp" />
+
+                            <TextView
+                                android:id="@+id/textView35"
+                                android:layout_width="256dp"
+                                android:layout_height="wrap_content"
+                                android:text="@string/txtDescribingAccessibility"
+                                android:textColor="#FFFFFF"
+                                android:translationX="40dp"
+                                android:translationY="120dp" />
+
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

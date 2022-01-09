@@ -1,0 +1,190 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">Olimpo</string>
+    <string name="appName">Olimpo App</string>
+
+
+    <!-- Titles/Headers -->
+    <string name="title_activity_acomodacoes">AcomodacoesActivity</string>
+    <string name="title_activity_room">Activity_Room</string>
+    <string name="txtHeadServices">Serviços</string>
+    <string name="txtHeadIcaro">Suíte Icaro</string>
+    <string name="txtHeadApolo">Suíte Apolo</string>
+    <string name="txtHeadZeus">Suíte Zeus</string>
+    <string name="txtHeadServiceParking">Estacionamento no local</string>
+    <string name="txtHeadServiceRestaurant">Restaurante</string>
+    <string name="txtHeadServiceWifi">Wifi em todo hotel</string>
+    <string name="txtHeadServiceStore">Loja de conveniência</string>
+    <string name="txtHeadServiceAccessibility">Infraestrutura com acessibilidade</string>
+    <string name="txtHeadInformations">Informações</string>
+    <string name="txtHeadAlerts">Avisos</string>
+    <string name="txtHeadNews">Notícias</string>
+    <string name="txtHeadCheckIn">Check-in</string>
+    <string name="txtHeadCheckOut">Check-out</string>
+    <string name="txtHeadBed">Quantidade de leitos</string>
+    <string name="txtHeadProfile">Perfil</string>
+    <string name="txtHeadEmail">E-mail</string>
+    <string name="txtHeadPassword">Senha</string>
+    <string name="txtHeadConfirmPassword">Confirme sua Senha</string>
+    <string name="txtHeadName">Nome</string>
+    <string name="txtHeadCPF">CPF</string>
+    <string name="txtHeadAccount">Conta</string>
+    <string name="txtHeadHelp">Ajuda</string>
+    <string name="txtHeadHelpClient">Ajuda ao cliente</string>
+    <string name="txtHeadCpf">CPF</string>
+    <string name="txtHeadQandA"> Frequentes perguntas e respostas</string>
+    <string name="txtHeadLogin">Login</string>
+    <string name="txtHeadRoom">Acomodações</string>
+    <string name="txtHeadContactUs">Entre em contato conosco</string>
+
+
+    <!-- Questions and Answers -->
+    <string name="txtQuestionCancelBooking">Posso cancelar minha reserva sem cobrança de taxa?</string>
+    <string name="txtAnswerCancelBooking">É possivel cancelar sua reserva sem custo adicional.</string>
+    <string name="txtQuestionIncludedPrice">O que está incluído na reserva?</string>
+    <string name="txtAnswerIncludedPrice">Os itens incluidos estão descritos na àrea Serviços.</string>
+    <string name="txtQuestionChangeDay">Posso alterar o dia do meu check-in e check-out?</string>
+    <string name="txtAnswerChangeDay">A alteraçao das datas de check-in e check-out somente será
+        possivel através do contato com a recepção do Olimpo. </string>
+
+
+    <!-- Help texts -->
+    <string name="txtHelpBookingProcess">Processo de reserva do quarto</string>
+    <string name="txtHelpBookingDescription">Para efetuar reservas, vá em "Quartos" > escolha a
+        acomodação desejada > clique em "Ver Detalhes" > informe os dados solicitados > clique em
+        "Reservar". </string>
+    <string name="txtHelpSecurity">Segurança na reserva</string>
+    <string name="txtHelpSecurityDescription">Os dados informados no cadastro não serão
+        compartilhados com terceiros, seguindo as normas e regras descritas na LGPD (Lei N° 13.709).</string>
+    <string name="txtHelpPayment">Descontos para pagamentos</string>
+    <string name="txtHelpPaymentDescription">Haverá descontos em pagamentos mediante a fidelidade.</string>
+
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <!-- Accommodations Price and Size -->
+    <string name="priceIcaro">R$750,00 diária</string>
+    <string name="priceApolo">R$1200,00 diária</string>
+    <string name="priceZeus">R$2500,00 diária</string>
+    <string name="sizeIcaro">Até 4 leitos</string>
+    <string name="sizeApolo">Até 2 leitos</string>
+    <string name="sizeZeus">Até 2 leitos</string>
+
+    <!-- Hints -->
+    <string name="hintEmail">Insira seu E-mail</string>
+    <string name="hintPassword">Insira sua senha</string>
+
+
+    <!-- Buttons -->
+    <string name="btnBooking">Reservar</string>
+    <string name="btnMyBooking">Minhas Reservas</string>
+    <string name="btnMyProfile">Meu perfil</string>
+    <string name="btnQuestionsAnswers">Frequentes perguntas e respostas</string>
+    <string name="btnRate">Avaliações</string>
+    <string name="btnContact">Contato</string>
+    <string name="btnSale">Ofertas</string>
+    <string name="btnHelp">Ajuda</string>
+    <string name="btnLogin">Fazer Login</string>
+    <string name="btnCreateAccount">Registrar-se</string>
+    <string name="btnNext">Avançar</string>
+    <string name="btnOpenQuestion">Abrir conteúdo</string>
+
+
+    <!-- Radio Buttons -->
+    <string name="rbSize1">1 Leito</string>
+    <string name="rbSize2">2 Leitos</string>
+    <string name="rbSize3">3 Leitos</string>
+    <string name="rbSize4">4 Leitos</string>
+
+
+    <!-- General Texts -->
+    <string name="welcome">Bem-vindo ao</string>
+    <string name="profileTxt">Perfil</string>
+    <string name="datePicker">Selecione uma data</string>
+    <string name="txtForgotPassword">Esqueci minha senha</string>
+    <string name="txtNewAccount">Crie sua conta</string>
+
+
+    <!-- Alerts and News -->
+    <string name="bestHotelTitle">O melhor Hotel de Ribeirão Preto</string>
+    <string name="bestHotelSubtitle">Olimpo é eleito pela 20ª vez, o melhor hotel de Ribeirão Preto.</string>
+    <string name="xmasHotelTitle">Natal no Olimpo</string>
+    <string name="xmasHotelSubtitle">Confira nossos preços e promoções para o Natal.</string>
+    <string name="txtHeadCovid">Protocolo Covid-19</string>
+    <string name="txtAlertCovid">O Olimpo segue os protocolos sanitários exigidos pela OMS e pelo
+        Ministério da Saúde.</string>
+    <string name="txtHeadCovidItems">Hospedagem segura</string>
+    <string name="txtAlertCovidItems">O Olimpo fornece máscaras e dispõe de álcool em gel em toda
+        sua infraestrutura.</string>
+
+
+    <!-- Descriptions -->
+    <string name="txtDescribingServices">descriçao dos serviços</string>
+    <string name="txtDescribingAcomodation">Sobre a acomodação</string>
+    <string name="txtDescribingIcaro">A Suíte Ícaro conta com 4 camas de solteiro, cofre, frigobar, TV
+    32" e secador de cabelo.</string>
+    <string name="txtDescribingApolo">A Suíte Apolo conta com 2 camas de casal, cofre, frigobar, TV
+    55" e secador de cabelo.</string>
+    <string name="txtDescribingZeus">A Suíte Zeus conta com 2 camas de casal, cofre, frigobar, TV
+    60" e secador de cabelo.</string>
+    <string name="txtDescribingParking">O Olimpo Convention &amp; Hotel conta com cerca de 110 vagas de
+        estacionamento, sendo 100 para carros e 10 para motos.</string>
+    <string name="txtDescribingRestaurant">O Olimpo Convention &amp; Hotel conta um restaurante com
+        aproximadamente 80 mesas (com 5 cadeiras) .</string>
+    <string name="txtDescribingWifi">O Olimpo Convention &amp; Hotel contempla sinal de internet em
+        todos os ambientes, incluindo o estacionamento.</string>
+    <string name="txtDescribingStore">O Olimpo Convention &amp; Hotel possui uma loja de conveniência
+        para que faça compras, caso julgue necessário</string>
+    <string name="txtDescribingAccessibility">A infraestrutura do Olimpo Convention &amp; Hotel está
+        adaptada para atender pessoas com deficiência.</string>
+    <string name="txtDescribingLogin">Preencha os campos abaixo para fazer login.</string>
+    <string name="txtDescribingCreateAccount">Preencha os campos abaixo para criar sua conta.</string>
+    <string name="txtDescribingAboutOurHistory">    Fundado em 1970, o hotel Olimpo, hoje conhecido por Olimpo
+        Convention &amp; Hotel, foi fundado por Carlos Paes Olimpo. O nome do hotel leva o sobrenome de seu
+        fundador, que, por sua vez, também era admirador da cultura grega.<br/>
+            Com mais de 50 anos no mercado hoteleiro, o Olimpo Convention &amp; Hotel foi eleito 34 vezes, o melhor
+        do interior de São Paulo, e 22 vezes, o melhor de Ribeirão Preto e região.<br/>
+            Desde o falecimento de Carlos Olimpo em 2011, seus filhos, Adriano e Mariana, assumiram a direção do
+        hotel</string>
+    <string name="txtDescribingContact">(11) 98765-4321 || (11) 97865-1234 || (11)4004-1234</string>
+    <string name="DescribingContacttxt">Caso haja quaiquer dúvidas ligue para os números abaixo ou mande um
+    email no seguinte endereço</string>
+
+
+
+    <!-- Insert Date -->
+    <string-array name="DateArray">
+        <item>Selecione uma data</item>
+        <item>05/11/2021</item>
+        <item>06/11/2021</item>
+        <item>08/11/2021</item>
+        <item>09/11/2021</item>
+        <item>10/11/2021</item>
+    </string-array>
+
+    <string-array name="BedArray">
+        <item>Selecione quantidade de leitos</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <!-- Olimpo Contact -->
+
+    <string name="txtContactPhone">(11) 98765-4321 || (11) 97865-1234 || (11)4004-1234</string>
+    <string name="txtContactEmail">"@olimpoconvention"</string>
+
+    <!-- Strings used in fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

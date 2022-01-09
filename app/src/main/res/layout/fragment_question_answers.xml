@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <View
+                    android:id="@+id/view17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:background="@color/blue_300"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/textView45"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:fontFamily="@font/semibold"
+                    android:text="@string/txtHeadQandA"
+                    android:textColor="@color/white"
+                    android:textSize="30sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/view17"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <View
+                    android:id="@+id/view19"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@color/black1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view17" />
+
+                <ImageView
+                    android:id="@+id/arrowImgViewA"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:contentDescription="@string/btnOpenQuestion"
+                    app:layout_constraintBottom_toBottomOf="@+id/view19"
+                    app:layout_constraintEnd_toEndOf="@+id/view19"
+                    app:layout_constraintStart_toEndOf="@+id/textView47"
+                    app:layout_constraintTop_toTopOf="@+id/view19"
+                    app:srcCompat="@drawable/ic_arrow_down"
+                    app:tint="@color/blue_100" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginRight="40dp"
+                    android:fontFamily="@font/semibold"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/txtQuestionCancelBooking"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/view19"
+                    app:layout_constraintEnd_toEndOf="@+id/view19"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/view19"
+                    app:layout_constraintTop_toTopOf="@+id/view19" />
+
+                <View
+                    android:id="@+id/answerVwA"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@color/blue_300"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView47"
+                    tools:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/txtAnswerA"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:ems="15"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="@string/txtAnswerCancelBooking"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/answerVwA"
+                    app:layout_constraintEnd_toEndOf="@+id/answerVwA"
+                    app:layout_constraintStart_toStartOf="@+id/answerVwA"
+                    app:layout_constraintTop_toTopOf="@+id/answerVwA"
+                    tools:visibility="visible" />
+
+                <View
+                    android:id="@+id/view20"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@color/black1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/answerVwA" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginRight="40dp"
+                    android:fontFamily="@font/semibold"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/txtQuestionIncludedPrice"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/view20"
+                    app:layout_constraintEnd_toEndOf="@+id/view20"
+                    app:layout_constraintStart_toStartOf="@+id/view20"
+                    app:layout_constraintTop_toTopOf="@+id/view20" />
+
+                <ImageView
+                    android:id="@+id/arrowImgViewB"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:contentDescription="@string/btnOpenQuestion"
+                    app:layout_constraintBottom_toBottomOf="@+id/view20"
+                    app:layout_constraintEnd_toEndOf="@+id/view20"
+                    app:layout_constraintStart_toEndOf="@+id/textView48"
+                    app:layout_constraintTop_toTopOf="@+id/view20"
+                    app:srcCompat="@drawable/ic_arrow_down"
+                    app:tint="@color/blue_100" />
+
+                <View
+                    android:id="@+id/answerVwB"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@color/blue_300"
+                    android:visibility="gone"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView48"
+                    tools:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/txtAnswerB"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:ems="15"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="@string/txtAnswerIncludedPrice"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/answerVwB"
+                    app:layout_constraintEnd_toEndOf="@+id/answerVwB"
+                    app:layout_constraintStart_toStartOf="@+id/answerVwB"
+                    app:layout_constraintTop_toTopOf="@+id/answerVwB"
+                    tools:visibility="visible" />
+
+                <View
+                    android:id="@+id/view21"
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:background="@color/black1"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/answerVwB" />
+
+                <TextView
+                    android:id="@+id/textView49"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_marginEnd="40dp"
+                    android:layout_marginRight="40dp"
+                    android:fontFamily="@font/semibold"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:text="@string/txtQuestionChangeDay"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    app:layout_constraintBottom_toBottomOf="@+id/view21"
+                    app:layout_constraintEnd_toEndOf="@+id/view21"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="@+id/view21"
+                    app:layout_constraintTop_toTopOf="@+id/view21" />
+
+                <ImageView
+                    android:id="@+id/arrowImgViewC"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:contentDescription="@string/btnOpenQuestion"
+                    app:layout_constraintBottom_toBottomOf="@+id/view21"
+                    app:layout_constraintEnd_toEndOf="@+id/view21"
+                    app:layout_constraintStart_toEndOf="@+id/textView49"
+                    app:layout_constraintTop_toTopOf="@+id/view21"
+                    app:srcCompat="@drawable/ic_arrow_down"
+                    app:tint="@color/blue_100" />
+
+                <View
+                    android:id="@+id/answerVwC"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginEnd="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@color/blue_300"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/view21"
+                    tools:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/txtAnswerC"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:ems="15"
+                    android:fontFamily="@font/regular"
+                    android:gravity="center_vertical"
+                    android:padding="16dp"
+                    android:text="@string/txtAnswerChangeDay"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toBottomOf="@+id/answerVwC"
+                    app:layout_constraintEnd_toEndOf="@+id/answerVwC"
+                    app:layout_constraintStart_toStartOf="@+id/answerVwC"
+                    app:layout_constraintTop_toTopOf="@+id/answerVwC"
+                    tools:visibility="visible" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

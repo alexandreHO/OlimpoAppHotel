@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/iHome"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/iRoom"
+            android:icon="@drawable/ic_bed"
+            android:title="Acomodações" />
+
+        <item
+            android:id="@+id/iService"
+            android:icon="@drawable/ic_service"
+            android:title="Serviços" />
+
+
+
+        <item
+            android:id="@+id/iProfile"
+            android:icon="@drawable/ic_person"
+            android:title="Conta" />
+
+
+    </group>
+
+    <item android:title="Communicate">
+
+        <menu>
+            <item
+                android:id="@+id/iShare"
+                android:icon="@drawable/ic_share"
+                android:title="Compartilhar" />
+
+            <item
+                android:id="@+id/iContact"
+                android:icon="@drawable/ic_phone_in_talk"
+                android:title="Contato" />
+
+            <item
+                android:id="@+id/iAbout"
+                android:icon="@drawable/ic_information"
+                android:title="Sobre" />
+
+        </menu>
+
+    </item>
+
+</menu>
